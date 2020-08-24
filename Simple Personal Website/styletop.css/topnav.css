@@ -1,0 +1,132 @@
+.container-top{
+    border: 2px solid blue;
+    height:242px;
+    background-color:white;
+    position: relative;
+    z-index: 9;
+    margin-bottom: 2px;
+ 
+}
+
+#banner {
+  
+    width: 90%;
+    height: 100px;
+    position: absolute;
+   
+    margin-top: -30px;
+   
+   
+    
+}
+#form img{
+   margin-left: 50px;
+    height: 120px;
+    margin-bottom: -60px;
+}
+#menu ul li {
+    display: inline;
+    margin-right: 5px;
+    color: black;
+    font-size: 18px;
+    float: left;
+    margin-left:25px;
+    margin-top: 25px;
+    font-weight: bolder;
+   
+}
+#menu ul li a {
+    color: black;
+}
+#menu ul li:hover {
+ background-color: darkgreen;
+    padding:2px;
+    border-radius: 15px;
+    color: black;
+    
+}
+
+.col-md {
+    margin-right: 50px;
+}
+
+#menu {
+    height: 150px;
+    
+}
+#makeittext a{
+   font-size: 30px; 
+    font-weight: bolder;
+    font-family: cursive;
+    float: left;
+    margin-top: -5px;
+    margin-left: 20px;
+ 
+   
+}
+    #makeittext a:hover{
+       color:darkred;
+        font-size: 26px;
+    }
+#makeit ul, li {
+    margin-top: 15px;
+    margin-left: 20px;
+   
+    
+}
+#contacttop {
+    float: right;
+   
+   
+}
+#directContact {
+    margin-top: 20px;
+    margin-left: 20px;
+ 
+   
+    
+}
+.text {
+    font-family: cursive;
+    font-weight: bolder;
+    color: maroon;
+    font-size: 18px;
+    margin-top: 10px;
+    
+   
+}
+.glyphicon {
+    color: blue;
+    font-size: 20px;
+}
+.navbar-dark {
+    width: 40%;
+    margin-left: 70px;
+    height: 70px;
+   
+ 
+    
+  
+}
+.navbar-light{
+    width: 40%;
+    float: right;
+    height: 70px;
+    margin-right:70px;
+    margin-top:-90px;
+    position: relative;
+    background-color: maroon;
+    text-align: center;
+    
+}
+.text1 {
+   float: left; 
+    margin-left: 5px;
+    margin-right: 3px;
+    color: black;
+    font-weight: bolder;
+    
+}
+#title {
+    z-index: 99;
+}

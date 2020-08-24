@@ -1,0 +1,185 @@
+
+.slide {
+    display: none ;
+}
+
+.plant-caption {
+    margin-left: 10px;
+    display: flex;
+    flex-basis: column wrap;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+   
+    height: 100%;
+    width: 100%;
+    text-align: justify-all;
+    color: #000066;
+    text-shadow: .15em .15em 0em black;
+}
+
+.plant-caption p {
+font-size: 20px;
+    font-family: cursive;
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify-all;
+    background: rgba(0,0,0,0.5);
+    border-radius: 15px;
+    padding: 20px;
+    
+     
+
+}
+
+.plant-carousel {
+    position: relative !important;
+    display: flex !important;
+    flex-basis: row wrap;
+    align-items: center; 
+    width: 100%;
+    height: 50%;
+    min-height: 20em;
+    overflow: hidden;
+}
+
+.plant-1, .plant-2, .plant-3 {
+    width: 100%;
+    height: 30em; 
+    background-attachment: fixed;
+    background-position: center center;
+    object-fit: cover;
+}
+
+.prev, .next {
+    position: absolute !important;
+    display: flex !important;
+    flex-direction: row !important;
+    top: 50%;
+    margin-top: -20px;
+    width: 40px;
+    height: 40px;
+   
+}
+
+.next {
+    right: 20px;
+    border-bottom: 6px solid orangered;
+    border-right: 6px solid orangered;
+    transform: rotate(-45deg);
+    transition: right 4s;
+    cursor: pointer;
+}
+
+.prev {
+    left: 20px;
+    border-bottom: 6px solid orangered;
+    border-left: 6px solid orangered;
+    transform: rotate(45deg);
+    transition: left 4s;
+    cursor: pointer;
+}
+
+.next:hover {
+    right: 2em;
+    border-bottom: 10px solid #e60073;
+     border-right: 10px solid #e60073;
+}
+
+.prev:hover {
+    left: 2em;
+     border-bottom: 10px solid #e60073;
+    border-left: 10px solid #e60073;
+    
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    background-color:#000066;
+    border-radius: 50%;
+    margin: 0 4px;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+  
+.dot-container{
+    display: flex;
+    flex-basis: row wrap;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    bottom: 1.5em;
+}
+
+.active, .dot:hover {
+    opacity: 1;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+   
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.plantall1 {
+    height: 500px;
+    width: auto;
+    border-radius: 20px;
+
+}
+.plantall {
+ height: 500px;
+   
+border-radius: 20px;
+
+
+}
+@media screen and (max-width:550px){
+.plantall {
+ height: 300px;
+  
+border-radius: 20px;
+
+}
+   .plant-caption p {
+font-size: 16px;
+    font-family: cursive;
+    color: white;
+    margin-left: 0px;
+    margin-right: 20px;
+    text-align: justify-all;
+    background: rgba(0,0,0,0.5);
+    border-radius: 8px;
+    padding: 10px;
+    overflow-y: auto;
+      
+
+}
+    
+    .plantall1 p {
+ height: 400px;
+margin-left: auto;
+border-radius: 20px;
+        margin-right: 20%px;
+        
+}
+    
+}
+@media screen and (min-width:868px){
+.plantall12 p{
+  
+    text-align:justify-all;
+    float: right;
+     margin-left: 33%;  
+    margin-right: 5%;
+    }
+
+
+}
