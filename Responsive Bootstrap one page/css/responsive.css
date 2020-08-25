@@ -1,0 +1,36 @@
+/*boostrap 3 media queries*/
+/*large devices(desktop and laptop*/
+@media(min-width:1200px){
+    
+    #home-heading h3 {
+        color:white;
+    }
+}
+/*medium devices*/
+@media (min-width:992px)and (max-width:1199px){
+    
+    #home-heading h3 {
+        color:greenyellow;
+    }
+}
+/*small devices*/
+@media (min-width :768px) and (max-width :991px){
+     #home-heading h3 {
+        color:#770a98;
+    }
+}
+/*extra small devices phones and tablets*/
+
+@media(max-width:767px){
+    
+    #home-heading h3 {
+        color:#0c35ed;
+    };
+    #home-btn{
+     
+    
+  
+        
+        
+    }
+}

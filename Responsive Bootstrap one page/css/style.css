@@ -1,0 +1,630 @@
+/*
+Comment on stylesheet
+font family: Roboto Condensed
+Greenish Blue :  #34c6d3 (buttons,Icons, links, & background)
+Steel Grey    :  #41464b (heading)
+Blue Bayoux   :  #64707b (paragraph)
+white         :  #fff    (text)
+black         :  #ooo    
+*/
+/*general css*/
+html,
+body {
+    height: 100%;
+
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+
+
+
+}
+
+p {
+    background-color: none;
+    color: black;
+    font-weight: 700;
+    padding: 15px 15px 15px 15px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+#home-heading:hover {
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+
+    font-weight: 900;
+}
+
+/*--Home section--*/
+#home {
+    height: 100%;
+
+}
+
+#home-cover {
+    background-image: url("../img/bg-home.jpg");
+    height: 100%;
+    margin-left: 15px;
+    margin-top: none;
+    margin-right: auto;
+    background-blend-mode: screen;
+}
+
+/*home btn*/
+#home-btn {
+    
+    
+    
+}
+
+#home-heading {
+
+    text-align: center;
+    color: white;
+    padding-top: 15%;
+
+
+}
+
+/*parallax effect*/
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#home-heading h3 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/*-home btn--*/
+.btn-general {
+
+    border-width: 6px;
+    padding: 2px 4px 2px 4px;
+    font-size: 25px;
+
+}
+
+.btn-white {
+    border-color: white;
+    width: 200px;
+}
+
+.btn-white:hover,
+btn-white:focus {
+    background-color: black;
+}
+
+/*animated css*/
+#home-cover {
+    animation-delay: .1;
+    animation-duration: .5s;
+
+}
+
+#home-heading h3 {
+    animation-delay: .5s;
+}
+
+#home-btn {
+    animation-delay: 1s;
+    animation-duration: .5;
+}
+
+/*Content box*/
+.content-box {
+    padding: 40px 10px 40px 10px;
+}
+
+.content-title h3 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+/*Content underlined*/
+.content-title-underlined {
+    width: 100px;
+    height: 4px;
+    background-color: #34c6d3;
+    margin: 0 auto 30px auto;
+}
+
+/*services item*/
+
+#Intro h2 {
+    font-size: 20px;
+    font-weight: 800;
+    font-style: italic;
+
+}
+
+#Intro {
+    text-align: center;
+    text-shadow: 2px;
+
+}
+
+#services p {
+    font-size: 18px;
+    font-weight: 500
+}
+
+#services p:hover {
+    background-color: none;
+    font-size: 18px;
+    font-weight: 900;
+    color: black;
+    font-style: bold;
+}
+
+.service-item {
+    padding: 20px 0 20px 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.service-item-icon {
+    color: #800000;
+    float: left;
+    padding: 15px;
+    margin-right: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.service-item:hover .service-item-icon i {
+    color: white;
+    background-color: blue;
+}
+
+.service-item h3 {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+#services {
+    background-color: wheat;
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border: 2px solid white;
+    margin-bottom: 0px;
+}
+
+/*About section*/
+#about-content-box {
+    float: left;
+    height: 700px;
+
+}
+
+#about-btn {
+    height: 40px;
+    width: 150px;
+    background-color: darkolivegreen;
+    margin-left: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+
+
+}
+
+#about-desc p {
+    font-size: 16px;
+}
+
+.content-title h3 {
+    font-size: 30px;
+}
+
+#about-desc p:hover {}
+
+#about-bg-diagonal {
+
+    width: 550px;
+    height: 550px;
+    float: right;
+    background-image: url(../img/bg-about.JPG);
+    border-left: 0px solid white;
+    border-bottom-left-radius: 300px;
+    border-top-right-radius: 300px;
+    border-top: 00px solid transparent;
+    padding-top: 20px;
+
+}
+
+.img-wrapper {
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    transition: transform.5s ease;
+}
+
+.img-wrapper img:hover {
+    transform: scale(2);
+}
+
+/*Team work*/
+#team-member {
+    overflow: hidden;
+}
+
+#team-member img {
+    transition: transform.5s ease;
+}
+
+#team-member img:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+
+}
+
+/*work team*/
+
+
+#about {
+    background-color: beige;
+    margin-left: 25px;
+    padding-top: 10px;
+    margin-right: 15px;
+    border: 2px solid white;
+    margin-top: none;
+}
+
+#about p:hover {
+
+    background-color: none;
+    color: black;
+    font-weight: 600;
+    padding: 15px 15px 15px 0px;
+    padding-right: 20px;
+    font-size: 17px;
+
+
+}
+
+#about {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+
+}
+
+#about #read {
+    background-color: bisque;
+    padding-left: 10px;
+    margin-left: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-right: 25px;
+    font-weight: 1000;
+    font-style: italic;
+}
+
+/*team section*/
+#team-member {
+    margin-left: 25px;
+}
+
+.team-member-info {
+    padding: 10px 0 20px 0;
+}
+
+.team-member-name {
+    font-size: 20px;
+    font-weight: 800;
+    color: darkblue;
+}
+
+.team-member-designation {
+    font-size: 20px;
+    font-weight: 700;
+    color: darkolivegreen;
+    font-style: italic;
+}
+
+#team {
+    background-color: snow;
+    margin-left: 25px;
+    margin-right: 15px;
+    margin-top: 15px;
+    border: 2px solid white;
+
+}
+
+/*social icon*/
+.social-list {
+    padding-left: 0;
+}
+
+.social-list li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.social-list i:hover {
+    color: orange;
+}
+
+/*our work*/
+#content-title-underlined {
+    width: 100px;
+    height: 4px;
+    background-color: chartreuse;
+    margin: 0 auto 30px auto;
+}
+
+#work {
+    background-color: bisque;
+    margin-left: 25px;
+    margin-right: 15px;
+    border: 2px solid black;
+    margin-top: 10px;
+
+}
+
+#work a p:hover {
+    background-color: white;
+
+
+
+
+}
+
+#work a {
+    text-decoration: none;
+}
+
+/*pricing*/
+
+.pricing-box {
+    border: 3px solid blue;
+    padding: 40px 0;
+    margin: 40px 0;
+}
+
+/*pricing middle */
+.pricing-box-lg {
+    background-color: cornflowerblue;
+}
+
+h4.pricing-title {
+    background-color: chocolate;
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+
+}
+
+h3.pricing-value {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+ul.pricing-spec {
+    list-style: none;
+    padding-left: 0px;
+
+}
+
+.social-list li .icon-red {
+    color: red;
+}
+
+.social-list li .icon-grey1 {
+    color: darkblue;
+}
+
+/*Footer element*/
+footer {
+    background-color: black;
+    margin-right: auto;
+    margin-left: 5px;
+    border: 3px solid white;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    color: bisque;
+
+}
+
+footer h3 {
+    color: white;
+    font-size: 30px;
+}
+
+footer p {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer #head {
+    color: white;
+    font-size: 30px;
+}
+
+footer p:hover {
+    background-color: none;
+    color: white;
+    font-weight: 600;
+    padding: 15px 15px 15px 15px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+/*Footer---*/
+#footer-bottom {
+    background-color: white;
+    margin-right: 10px;
+}
+
+#footer-bottom p {
+    color: black;
+}
+
+#footer-bottom p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#footer-copyright p:hover {
+    color: black;
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+#designer p {
+    font-size: 10px;
+}
+
+#designer p:hover {
+    font-size: none;
+}
+
+/*Footer menu--*/
+
+#footer-menu {
+    float: left;
+}
+
+#footer-menu ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
+
+#footer-menu ul li {
+    display: inline-block;
+    padding: 5px;
+    font-size: 18px;
+
+}
+
+#footer-menu a {
+    color: black;
+    text-decoration-line: none;
+    font-weight: 900px;
+}
+
+#footer-menu a:hover {
+    color: green;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+/*---------------
+navbar styling
+----------------*/
+.navbar {
+    padding-top: 0px;
+
+    padding-bottom: 15px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar ul {
+    padding-top: 12px;
+
+
+
+}
+
+.navbar ul li {
+
+    font-size: 15px;
+    font-weight: 700;
+    background-color: none;
+    color: chocolate;
+
+}
+
+.navbar-nav {
+    float: right;
+    margin-right: 5px;
+    margin-bottom: 0px;
+
+}
+
+.navbar-nav > li > a {
+    padding: 8px;
+
+}
+
+.navbar ul li:active,
+.navbar ul li:focus {
+    background-color: limegreen;
+}
+
+.navbar ul li a .active {
+    color: blue;
+    background-color: green;
+}
+
+
+/*Logo--*/
+
+
+.navbar-nav > li > a:active {
+    background-color: green;
+}
+
+.navbar-toggle {
+    background-color: olivedrab;
+    color: black;
+    border: 2px solid white;
+}
+
+#pretech {
+    margin-left: 30px;
+}
+
+/*active navbar*/
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+    color: #fff;
+    background-color: green;
+}
+
+#back-to-top {
+    float: right;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    color: white;
+    margin-bottom: 30px;
+    margin-right: 5px;
+}
+
+#contactform {
+    margin-top: 30px;
+}
+
+#second {
+    width: 80px;
+
+}
